@@ -47,9 +47,9 @@
     NSUInteger index = 0;
     NSString *expectedText = @"1";
     
-	STAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", [self errorForIndex:index]);
-    STAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", [self errorForIndex:index]);
-    STAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, [self errorForIndex:index]);
+	XCTAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, @"%@", [self errorForIndex:index]);
 }
 
 - (void)testNumberAndLetter
@@ -57,9 +57,9 @@
     NSUInteger index = 1;
     NSString *expectedText = @"1A";
     
-	STAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", [self errorForIndex:index]);
-    STAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", [self errorForIndex:index]);
-    STAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, [self errorForIndex:index]);
+	XCTAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, @"%@", [self errorForIndex:index]);
 }
 
 - (void)testNumberAndLowercaseLetter
@@ -67,9 +67,9 @@
     NSUInteger index = 2;
     NSString *expectedText = @"1a";
     
-	STAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", [self errorForIndex:index]);
-    STAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", [self errorForIndex:index]);
-    STAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, [self errorForIndex:index]);
+	XCTAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, @"%@", [self errorForIndex:index]);
 }
 
 - (void)testLetterAndNumber
@@ -77,9 +77,9 @@
     NSUInteger index = 3;
     NSString *expectedText = @"A1";
     
-	STAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", [self errorForIndex:index]);
-    STAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", [self errorForIndex:index]);
-    STAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, [self errorForIndex:index]);
+	XCTAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, @"%@", [self errorForIndex:index]);
 }
 
 - (void)testDashes
@@ -87,9 +87,9 @@
     NSUInteger index = 4;
     NSString *expectedText = @"I-1-A";
     
-	STAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", [self errorForIndex:index]);
-    STAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", [self errorForIndex:index]);
-    STAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, [self errorForIndex:index]);
+	XCTAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, @"%@", [self errorForIndex:index]);
 }
 
 - (void)testNumberWithPeriod
@@ -97,9 +97,9 @@
     NSUInteger index = 5;
     NSString *expectedText = @"1.";
     
-	STAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", [self errorForIndex:index]);
-    STAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", [self errorForIndex:index]);
-    STAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, [self errorForIndex:index]);
+	XCTAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY ", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, @"%@", [self errorForIndex:index]);
 }
 
 - (void)testSceneHeaderWithExtraInfo
@@ -107,9 +107,9 @@
     NSUInteger index = 6;
     NSString *expectedText = @"110A";
     
-	STAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", [self errorForIndex:index]);
-    STAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY - FLASHBACK (1944) ", [self errorForIndex:index]);
-    STAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, [self errorForIndex:index]);
+	XCTAssertEqualObjects([self elementTypeAtIndex:index], @"Scene Heading", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self elementTextAtIndex:index], @"INT. HOUSE - DAY - FLASHBACK (1944) ", @"%@", [self errorForIndex:index]);
+    XCTAssertEqualObjects([self sceneNumberForElementAtIndex:index], expectedText, @"%@", [self errorForIndex:index]);
 }
 
 @end

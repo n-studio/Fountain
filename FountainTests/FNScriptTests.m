@@ -51,7 +51,7 @@
 {
     NSString *string = @"FADE IN:";
     FNScript *testScript = [[FNScript alloc] initWithString:string];
-    STAssertNotNil(testScript, @"Script did not init with this string: %@", string);
+    XCTAssertNotNil(testScript, @"Script did not init with this string: %@", string);
 }
 
 - (void)testLoadFile
@@ -59,14 +59,14 @@
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     NSString *path = [bundle pathForResource:@"Big Fish" ofType:@"fountain"];
     [script loadFile:path];
-    STAssertNotNil(script, @"Script did not load the file: %@", path);
+    XCTAssertNotNil(script, @"Script did not load the file: %@", path);
 }
 
 - (void)testLoadString
 {
     NSString *string = @"FADE IN:";
     [script loadString:string];
-    STAssertNotNil(script, @"Script did not load the string: %@", string);
+    XCTAssertNotNil(script, @"Script did not load the string: %@", string);
 }
 
 - (void)testStringFromTitlePage
@@ -75,7 +75,7 @@
     NSBundle *bundle = [NSBundle bundleForClass:[self class]];
     NSString *path = [bundle pathForResource:@"Simple" ofType:@"fountain"];
     [script loadFile:path];
-    STAssertEqualObjects(expectedString, [script stringFromTitlePage], nil);
+    XCTAssertEqualObjects(expectedString, [script stringFromTitlePage]);
 }
 
 - (void)testElementDescription
@@ -92,23 +92,23 @@
     // checking. I don't care enough to investigate further.
     actualString = [elements[0] description];
     expectedString = @"Action: FADE IN:";
-    STAssertEqualObjects(actualString, expectedString, nil);
+    XCTAssertEqualObjects(actualString, expectedString);
     
     actualString = [elements[1] description];
     expectedString = @"Scene Heading: INT. HOUSE - DAY";
-    STAssertEqualObjects(actualString, expectedString, nil);
+    XCTAssertEqualObjects(actualString, expectedString);
 
     actualString = [elements[2] description];
     expectedString = @"Character: MAN";
-    STAssertEqualObjects(actualString, expectedString, nil);
+    XCTAssertEqualObjects(actualString, expectedString);
 
     actualString = [elements[3] description];
     expectedString = @"Dialogue: I'm in the house.";
-    STAssertEqualObjects(actualString, expectedString, nil);
+    XCTAssertEqualObjects(actualString, expectedString);
 
     actualString = [elements[4] description];
     expectedString = @"Action (centered): The end.";
-    STAssertEqualObjects(actualString, expectedString, nil);
+    XCTAssertEqualObjects(actualString, expectedString);
 }
 
 - (void)testScriptDescription
@@ -121,7 +121,7 @@
     // checking. I don't care enough to investigate further.
     NSString *actualString = [script description];
     NSString *expectedString = string;
-    STAssertEqualObjects(actualString, expectedString, nil);
+    XCTAssertEqualObjects(actualString, expectedString);
 }
 
 - (void)testTitlesWithoutColons
@@ -134,7 +134,7 @@
     // checking. I don't care enough to investigate further.
     NSString *actualString = [script description];
     NSString *expectedString = string;
-    STAssertEqualObjects(actualString, expectedString, nil);
+    XCTAssertEqualObjects(actualString, expectedString);
 }
 
 - (void)testTitlesWithColons
@@ -147,7 +147,7 @@
     // checking. I don't care enough to investigate further.
     NSString *actualString = [script description];
     NSString *expectedString = string;
-    STAssertEqualObjects(actualString, expectedString, nil);
+    XCTAssertEqualObjects(actualString, expectedString);
 }
 
 @end

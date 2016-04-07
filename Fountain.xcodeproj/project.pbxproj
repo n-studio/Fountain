@@ -58,7 +58,6 @@
 		3C0BB02E14DF3D55004A90E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0BB02D14DF3D55004A90E8 /* Cocoa.framework */; };
 		3C0BB03814DF3D55004A90E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BB03614DF3D55004A90E8 /* InfoPlist.strings */; };
 		3C0BB03A14DF3D55004A90E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB03914DF3D55004A90E8 /* main.m */; };
-		3C0BB04C14DF3D56004A90E8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0BB04B14DF3D56004A90E8 /* SenTestingKit.framework */; };
 		3C0BB04D14DF3D56004A90E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0BB02D14DF3D55004A90E8 /* Cocoa.framework */; };
 		3C0BB05514DF3D56004A90E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BB05314DF3D56004A90E8 /* InfoPlist.strings */; };
 		3C0BB06B14DF3D76004A90E8 /* FNScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06214DF3D76004A90E8 /* FNScript.m */; };
@@ -164,8 +163,7 @@
 		3C0BB03714DF3D55004A90E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C0BB03914DF3D55004A90E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../Sample Project Mac/main.m"; sourceTree = "<group>"; };
 		3C0BB03B14DF3D55004A90E8 /* Fountain-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Fountain-Prefix.pch"; path = "../Sample Project Mac/Fountain-Prefix.pch"; sourceTree = "<group>"; };
-		3C0BB04A14DF3D56004A90E8 /* FountainTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FountainTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C0BB04B14DF3D56004A90E8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C0BB04A14DF3D56004A90E8 /* FountainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FountainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0BB05214DF3D56004A90E8 /* FountainTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FountainTests-Info.plist"; sourceTree = "<group>"; };
 		3C0BB05414DF3D56004A90E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C0BB06114DF3D76004A90E8 /* FNScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNScript.h; sourceTree = "<group>"; };
@@ -231,7 +229,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C0BB04C14DF3D56004A90E8 /* SenTestingKit.framework in Frameworks */,
 				3C0BB04D14DF3D56004A90E8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +357,7 @@
 			isa = PBXGroup;
 			children = (
 				3C0BB02914DF3D55004A90E8 /* Sample Project Mac.app */,
-				3C0BB04A14DF3D56004A90E8 /* FountainTests.octest */,
+				3C0BB04A14DF3D56004A90E8 /* FountainTests.xctest */,
 				149D632C17EA93E100DA482C /* Sample Project iOS.app */,
 			);
 			name = Products;
@@ -371,7 +368,6 @@
 			children = (
 				3CBFF74015940860005EC5BF /* WebKit.framework */,
 				3C0BB02D14DF3D55004A90E8 /* Cocoa.framework */,
-				3C0BB04B14DF3D56004A90E8 /* SenTestingKit.framework */,
 				149D632D17EA93E200DA482C /* Foundation.framework */,
 				149D632F17EA93E200DA482C /* CoreGraphics.framework */,
 				149D633117EA93E200DA482C /* UIKit.framework */,
@@ -535,8 +531,8 @@
 			);
 			name = FountainTests;
 			productName = FountainTests;
-			productReference = 3C0BB04A14DF3D56004A90E8 /* FountainTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
+			productReference = 3C0BB04A14DF3D56004A90E8 /* FountainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -544,6 +540,7 @@
 		3C0BB02014DF3D55004A90E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Nima Yousefi";
 				TargetAttributes = {
@@ -941,14 +938,13 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sample Project Mac.app/Contents/MacOS/Sample Project Mac";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sample Project Mac/Fountain-Prefix.pch";
 				INFOPLIST_FILE = "FountainTests/FountainTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -958,14 +954,13 @@
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sample Project Mac.app/Contents/MacOS/Sample Project Mac";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sample Project Mac/Fountain-Prefix.pch";
 				INFOPLIST_FILE = "FountainTests/FountainTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
