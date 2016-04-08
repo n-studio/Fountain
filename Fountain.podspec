@@ -6,9 +6,14 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Nima Yousefi" => "inbox@nimayousefi.com" }
   s.source       = { :git => "https://github.com/nyousefi/Fountain.git", :tag => "v#{s.version}" }
-  s.source_files = "Fountain/FN*.{h,m}", "Fountain/Fountain*.{h,m}", "Fountain/FastFountainParser.{h,m}", "RegexKitLite/*.{h,m}"
+  s.source_files = "Fountain/FN*.{h,m}", "Fountain/Fountain*.{h,m}", "Fountain/FastFountainParser.{h,m}"
   s.frameworks   = 'cocoa'
   s.libraries    = 'icucore'
+  
+  s.subspec 'no-arc' do |sp|
+    sp.source_files = "RegexKitLite/*.{h,m}"
+    sp.requires_arc = false
+  end
   
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.7'
