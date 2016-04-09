@@ -77,7 +77,7 @@
 - (NSString *)cssText
 {    
     NSError *error = nil;
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"ScriptCSS.css" ofType:@""];
+    NSString *path = [[NSBundle bundleForClass:[FNScript class]] pathForResource:@"ScriptCSS" ofType:@"css"];
     NSString *css = [NSString stringWithContentsOfFile:path encoding:NSUTF8StringEncoding error:&error];
     if (error) {
         NSLog(@"Couldn't load CSS");

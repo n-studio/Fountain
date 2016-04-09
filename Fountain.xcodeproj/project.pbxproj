@@ -43,15 +43,7 @@
 		149D634417EA93E200DA482C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149D634317EA93E200DA482C /* ViewController.m */; };
 		149D634617EA93E200DA482C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149D634517EA93E200DA482C /* Images.xcassets */; };
 		149D636417EA969600DA482C /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD0FF14DF64B400F18DE6 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		149D636517EA969600DA482C /* FountainRegexes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06614DF3D76004A90E8 /* FountainRegexes.m */; };
-		149D636617EA969600DA482C /* FNScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06214DF3D76004A90E8 /* FNScript.m */; };
-		149D636717EA969600DA482C /* FNElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06414DF3D76004A90E8 /* FNElement.m */; };
-		149D636817EA969600DA482C /* FountainParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06814DF3D76004A90E8 /* FountainParser.m */; };
-		149D636917EA969600DA482C /* FastFountainParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9545E41593EBA500ABBA9B /* FastFountainParser.m */; };
-		149D636A17EA969600DA482C /* FountainWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06A14DF3D76004A90E8 /* FountainWriter.m */; };
 		149D636B17EA969600DA482C /* FNHTMLScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C95460C1594025400ABBA9B /* FNHTMLScript.m */; };
-		149D636C17EA969600DA482C /* FNPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF74615940D52005EC5BF /* FNPaginator.m */; };
-		149D636D17EA96A300DA482C /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFF74315940ACC005EC5BF /* ScriptCSS.css */; };
 		149D636E17EA96BB00DA482C /* Big Fish.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E214DF589E00F18DE6 /* Big Fish.fountain */; };
 		14AA1A54178F8FD400BAEED2 /* Sections-Complex.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 14AA1A53178F8FD400BAEED2 /* Sections-Complex.fountain */; };
 		14AA1A57178F901F00BAEED2 /* SectionAndSynopsisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA1A56178F901F00BAEED2 /* SectionAndSynopsisTests.m */; };
@@ -83,6 +75,26 @@
 		3CBFF74215940A40005EC5BF /* Big Fish.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E214DF589E00F18DE6 /* Big Fish.fountain */; };
 		3CBFF74415940ACC005EC5BF /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFF74315940ACC005EC5BF /* ScriptCSS.css */; };
 		3CBFF74715940D52005EC5BF /* FNPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF74615940D52005EC5BF /* FNPaginator.m */; };
+		E2ADEDBD1CB975B20074E483 /* Fountain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ADEDB61CB975B10074E483 /* Fountain.framework */; };
+		E2ADEDBE1CB975B20074E483 /* Fountain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2ADEDB61CB975B10074E483 /* Fountain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2ADEDC31CB975BB0074E483 /* QUQFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D636F17EA98E300DA482C /* QUQFont.h */; };
+		E2ADEDD51CB975D90074E483 /* FountainRegexes.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0BB06514DF3D76004A90E8 /* FountainRegexes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2ADEDD61CB975D90074E483 /* FountainRegexes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06614DF3D76004A90E8 /* FountainRegexes.m */; };
+		E2ADEDD71CB975D90074E483 /* FNScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0BB06114DF3D76004A90E8 /* FNScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2ADEDD81CB975D90074E483 /* FNScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06214DF3D76004A90E8 /* FNScript.m */; };
+		E2ADEDD91CB975D90074E483 /* FNElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0BB06314DF3D76004A90E8 /* FNElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2ADEDDA1CB975D90074E483 /* FNElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06414DF3D76004A90E8 /* FNElement.m */; };
+		E2ADEDDB1CB975D90074E483 /* FountainParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0BB06714DF3D76004A90E8 /* FountainParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2ADEDDC1CB975D90074E483 /* FountainParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06814DF3D76004A90E8 /* FountainParser.m */; };
+		E2ADEDDD1CB975D90074E483 /* FastFountainParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9545E31593EBA500ABBA9B /* FastFountainParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2ADEDDE1CB975D90074E483 /* FastFountainParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9545E41593EBA500ABBA9B /* FastFountainParser.m */; };
+		E2ADEDDF1CB975D90074E483 /* FountainWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0BB06914DF3D76004A90E8 /* FountainWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2ADEDE01CB975D90074E483 /* FountainWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06A14DF3D76004A90E8 /* FountainWriter.m */; };
+		E2ADEDE11CB975D90074E483 /* FNHTMLScript.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C95460B1594025400ABBA9B /* FNHTMLScript.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2ADEDE21CB975D90074E483 /* FNHTMLScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C95460C1594025400ABBA9B /* FNHTMLScript.m */; };
+		E2ADEDE31CB975D90074E483 /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFF74315940ACC005EC5BF /* ScriptCSS.css */; };
+		E2ADEDE41CB975D90074E483 /* FNPaginator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBFF74515940D52005EC5BF /* FNPaginator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2ADEDE51CB975D90074E483 /* FNPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF74615940D52005EC5BF /* FNPaginator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +105,28 @@
 			remoteGlobalIDString = 3C0BB02814DF3D55004A90E8;
 			remoteInfo = "Sample Project Mac";
 		};
+		E2ADEDBB1CB975B20074E483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0BB02014DF3D55004A90E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2ADEDB51CB975B10074E483;
+			remoteInfo = Fountain;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2ADEDC21CB975B20074E483 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E2ADEDBE1CB975B20074E483 /* Fountain.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		146059FA17E8FCEA00B7B611 /* BaseElementTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseElementTests.h; sourceTree = "<group>"; };
@@ -203,6 +236,9 @@
 		3CBFF74315940ACC005EC5BF /* ScriptCSS.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ScriptCSS.css; sourceTree = "<group>"; };
 		3CBFF74515940D52005EC5BF /* FNPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FNPaginator.h; sourceTree = "<group>"; };
 		3CBFF74615940D52005EC5BF /* FNPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FNPaginator.m; sourceTree = "<group>"; };
+		E2ADEDB61CB975B10074E483 /* Fountain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fountain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2ADEDBA1CB975B20074E483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2ADEDE61CB9765C0074E483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +248,7 @@
 			files = (
 				149D633017EA93E200DA482C /* CoreGraphics.framework in Frameworks */,
 				149D633217EA93E200DA482C /* UIKit.framework in Frameworks */,
+				E2ADEDBD1CB975B20074E483 /* Fountain.framework in Frameworks */,
 				149D632E17EA93E200DA482C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0BB04D14DF3D56004A90E8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2ADEDB21CB975B10074E483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +403,7 @@
 				3C0BB02914DF3D55004A90E8 /* Sample Project Mac.app */,
 				3C0BB04A14DF3D56004A90E8 /* FountainTests.xctest */,
 				149D632C17EA93E100DA482C /* Sample Project iOS.app */,
+				E2ADEDB61CB975B10074E483 /* Fountain.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -366,6 +411,7 @@
 		3C0BB02C14DF3D55004A90E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E2ADEDE61CB9765C0074E483 /* Foundation.framework */,
 				3CBFF74015940860005EC5BF /* WebKit.framework */,
 				3C0BB02D14DF3D55004A90E8 /* Cocoa.framework */,
 				149D632D17EA93E200DA482C /* Foundation.framework */,
@@ -408,6 +454,7 @@
 				3CBFF74315940ACC005EC5BF /* ScriptCSS.css */,
 				3CBFF74515940D52005EC5BF /* FNPaginator.h */,
 				3CBFF74615940D52005EC5BF /* FNPaginator.m */,
+				E2ADEDBA1CB975B20074E483 /* Info.plist */,
 			);
 			path = Fountain;
 			sourceTree = "<group>";
@@ -480,6 +527,25 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		E2ADEDB31CB975B10074E483 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ADEDD71CB975D90074E483 /* FNScript.h in Headers */,
+				E2ADEDE41CB975D90074E483 /* FNPaginator.h in Headers */,
+				E2ADEDD91CB975D90074E483 /* FNElement.h in Headers */,
+				E2ADEDDD1CB975D90074E483 /* FastFountainParser.h in Headers */,
+				E2ADEDC31CB975BB0074E483 /* QUQFont.h in Headers */,
+				E2ADEDD51CB975D90074E483 /* FountainRegexes.h in Headers */,
+				E2ADEDE11CB975D90074E483 /* FNHTMLScript.h in Headers */,
+				E2ADEDDB1CB975D90074E483 /* FountainParser.h in Headers */,
+				E2ADEDDF1CB975D90074E483 /* FountainWriter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		149D632B17EA93E100DA482C /* Sample Project iOS */ = {
 			isa = PBXNativeTarget;
@@ -488,10 +554,12 @@
 				149D632817EA93E100DA482C /* Sources */,
 				149D632917EA93E100DA482C /* Frameworks */,
 				149D632A17EA93E100DA482C /* Resources */,
+				E2ADEDC21CB975B20074E483 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E2ADEDBC1CB975B20074E483 /* PBXTargetDependency */,
 			);
 			name = "Sample Project iOS";
 			productName = "Sample Project iOS";
@@ -534,6 +602,24 @@
 			productReference = 3C0BB04A14DF3D56004A90E8 /* FountainTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E2ADEDB51CB975B10074E483 /* Fountain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2ADEDC11CB975B20074E483 /* Build configuration list for PBXNativeTarget "Fountain" */;
+			buildPhases = (
+				E2ADEDB11CB975B10074E483 /* Sources */,
+				E2ADEDB21CB975B10074E483 /* Frameworks */,
+				E2ADEDB31CB975B10074E483 /* Headers */,
+				E2ADEDB41CB975B10074E483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fountain;
+			productName = Fountain;
+			productReference = E2ADEDB61CB975B10074E483 /* Fountain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -546,6 +632,9 @@
 				TargetAttributes = {
 					3C0BB04914DF3D56004A90E8 = {
 						TestTargetID = 3C0BB02814DF3D55004A90E8;
+					};
+					E2ADEDB51CB975B10074E483 = {
+						CreatedOnToolsVersion = 7.3;
 					};
 				};
 			};
@@ -562,6 +651,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E2ADEDB51CB975B10074E483 /* Fountain */,
 				3C0BB04914DF3D56004A90E8 /* FountainTests */,
 				3C0BB02814DF3D55004A90E8 /* Sample Project Mac */,
 				149D632B17EA93E100DA482C /* Sample Project iOS */,
@@ -575,7 +665,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				149D636E17EA96BB00DA482C /* Big Fish.fountain in Resources */,
-				149D636D17EA96A300DA482C /* ScriptCSS.css in Resources */,
 				149D634617EA93E200DA482C /* Images.xcassets in Resources */,
 				149D633817EA93E200DA482C /* InfoPlist.strings in Resources */,
 				149D634117EA93E200DA482C /* Main.storyboard in Resources */,
@@ -619,6 +708,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2ADEDB41CB975B10074E483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ADEDE31CB975D90074E483 /* ScriptCSS.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -643,14 +740,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				149D636417EA969600DA482C /* RegexKitLite.m in Sources */,
-				149D636517EA969600DA482C /* FountainRegexes.m in Sources */,
-				149D636617EA969600DA482C /* FNScript.m in Sources */,
-				149D636717EA969600DA482C /* FNElement.m in Sources */,
-				149D636817EA969600DA482C /* FountainParser.m in Sources */,
-				149D636917EA969600DA482C /* FastFountainParser.m in Sources */,
-				149D636A17EA969600DA482C /* FountainWriter.m in Sources */,
 				149D636B17EA969600DA482C /* FNHTMLScript.m in Sources */,
-				149D636C17EA969600DA482C /* FNPaginator.m in Sources */,
 				149D634417EA93E200DA482C /* ViewController.m in Sources */,
 				149D633E17EA93E200DA482C /* AppDelegate.m in Sources */,
 				149D633A17EA93E200DA482C /* main.m in Sources */,
@@ -701,6 +791,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2ADEDB11CB975B10074E483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2ADEDDC1CB975D90074E483 /* FountainParser.m in Sources */,
+				E2ADEDE51CB975D90074E483 /* FNPaginator.m in Sources */,
+				E2ADEDDE1CB975D90074E483 /* FastFountainParser.m in Sources */,
+				E2ADEDD81CB975D90074E483 /* FNScript.m in Sources */,
+				E2ADEDD61CB975D90074E483 /* FountainRegexes.m in Sources */,
+				E2ADEDE21CB975D90074E483 /* FNHTMLScript.m in Sources */,
+				E2ADEDE01CB975D90074E483 /* FountainWriter.m in Sources */,
+				E2ADEDDA1CB975D90074E483 /* FNElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -708,6 +813,11 @@
 			isa = PBXTargetDependency;
 			target = 3C0BB02814DF3D55004A90E8 /* Sample Project Mac */;
 			targetProxy = 149D636017EA94A600DA482C /* PBXContainerItemProxy */;
+		};
+		E2ADEDBC1CB975B20074E483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2ADEDB51CB975B10074E483 /* Fountain */;
+			targetProxy = E2ADEDBB1CB975B20074E483 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -782,7 +892,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "Sample Project iOS/Sample Project iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quoteunquoteapps.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -823,7 +934,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "Sample Project iOS/Sample Project iOS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-licucore";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.quoteunquoteapps.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -866,6 +978,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -897,6 +1010,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
@@ -964,6 +1078,76 @@
 			};
 			name = Release;
 		};
+		E2ADEDBF1CB975B20074E483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Fountain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Fountain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2ADEDC01CB975B20074E483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = Fountain/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Fountain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1002,6 +1186,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		E2ADEDC11CB975B20074E483 /* Build configuration list for PBXNativeTarget "Fountain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2ADEDBF1CB975B20074E483 /* Debug */,
+				E2ADEDC01CB975B20074E483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

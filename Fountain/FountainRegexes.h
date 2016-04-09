@@ -22,6 +22,8 @@
 //  IN THE SOFTWARE.
 //
 
+#import <Foundation/Foundation.h>
+
 extern NSString * const UNIVERSAL_LINE_BREAKS_PATTERN;
 extern NSString * const UNIVERSAL_LINE_BREAKS_TEMPLATE;
 

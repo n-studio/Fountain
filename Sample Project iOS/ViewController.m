@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "FNScript.h"
-#import "FNHTMLScript.h"
+#import <Fountain/FNScript.h>
+#import <Fountain/FNHTMLScript.h>
 
 @interface ViewController ()
 
