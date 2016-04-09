@@ -43,7 +43,6 @@
 		149D634417EA93E200DA482C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149D634317EA93E200DA482C /* ViewController.m */; };
 		149D634617EA93E200DA482C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 149D634517EA93E200DA482C /* Images.xcassets */; };
 		149D636417EA969600DA482C /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD0FF14DF64B400F18DE6 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		149D636B17EA969600DA482C /* FNHTMLScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C95460C1594025400ABBA9B /* FNHTMLScript.m */; };
 		149D636E17EA96BB00DA482C /* Big Fish.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E214DF589E00F18DE6 /* Big Fish.fountain */; };
 		14AA1A54178F8FD400BAEED2 /* Sections-Complex.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 14AA1A53178F8FD400BAEED2 /* Sections-Complex.fountain */; };
 		14AA1A57178F901F00BAEED2 /* SectionAndSynopsisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AA1A56178F901F00BAEED2 /* SectionAndSynopsisTests.m */; };
@@ -52,11 +51,6 @@
 		3C0BB03A14DF3D55004A90E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB03914DF3D55004A90E8 /* main.m */; };
 		3C0BB04D14DF3D56004A90E8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0BB02D14DF3D55004A90E8 /* Cocoa.framework */; };
 		3C0BB05514DF3D56004A90E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C0BB05314DF3D56004A90E8 /* InfoPlist.strings */; };
-		3C0BB06B14DF3D76004A90E8 /* FNScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06214DF3D76004A90E8 /* FNScript.m */; };
-		3C0BB06C14DF3D76004A90E8 /* FNElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06414DF3D76004A90E8 /* FNElement.m */; };
-		3C0BB06D14DF3D76004A90E8 /* FountainRegexes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06614DF3D76004A90E8 /* FountainRegexes.m */; };
-		3C0BB06E14DF3D76004A90E8 /* FountainParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06814DF3D76004A90E8 /* FountainParser.m */; };
-		3C0BB06F14DF3D76004A90E8 /* FountainWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0BB06A14DF3D76004A90E8 /* FountainWriter.m */; };
 		3C76B00D14E05C5C00EDDA5F /* FNScriptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C76B00C14E05C5C00EDDA5F /* FNScriptTests.m */; };
 		3C8CD0E314DF589E00F18DE6 /* Big Fish.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E214DF589E00F18DE6 /* Big Fish.fountain */; };
 		3C8CD0E614DF58C300F18DE6 /* BigFishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E514DF58C300F18DE6 /* BigFishTests.m */; };
@@ -65,16 +59,12 @@
 		3C8CD10A14DF7CE600F18DE6 /* BrickAndSteelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD10914DF7CE600F18DE6 /* BrickAndSteelTests.m */; };
 		3C8CD10D14DF9D9400F18DE6 /* FountainWriterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8CD10C14DF9D9400F18DE6 /* FountainWriterTests.m */; };
 		3C8CD10F14DFA9D700F18DE6 /* Simple.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD10E14DFA9D700F18DE6 /* Simple.fountain */; };
-		3C9545E51593EBA500ABBA9B /* FastFountainParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9545E41593EBA500ABBA9B /* FastFountainParser.m */; };
-		3C95460D1594025400ABBA9B /* FNHTMLScript.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C95460C1594025400ABBA9B /* FNHTMLScript.m */; };
 		3CA5EE5618D3D76C00458AAF /* ForcedElementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA5EE5518D3D76C00458AAF /* ForcedElementTests.m */; };
 		3CA5EE5818D3D7B400458AAF /* ForcedElements.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3CA5EE5718D3D7B400458AAF /* ForcedElements.fountain */; };
 		3CBFF73C159407CC005EC5BF /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFF73B159407CC005EC5BF /* Application.xib */; };
 		3CBFF73F15940815005EC5BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF73E15940815005EC5BF /* AppDelegate.m */; };
 		3CBFF74115940860005EC5BF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CBFF74015940860005EC5BF /* WebKit.framework */; };
 		3CBFF74215940A40005EC5BF /* Big Fish.fountain in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CD0E214DF589E00F18DE6 /* Big Fish.fountain */; };
-		3CBFF74415940ACC005EC5BF /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFF74315940ACC005EC5BF /* ScriptCSS.css */; };
-		3CBFF74715940D52005EC5BF /* FNPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF74615940D52005EC5BF /* FNPaginator.m */; };
 		E2ADEDBD1CB975B20074E483 /* Fountain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ADEDB61CB975B10074E483 /* Fountain.framework */; };
 		E2ADEDBE1CB975B20074E483 /* Fountain.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2ADEDB61CB975B10074E483 /* Fountain.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E2ADEDC31CB975BB0074E483 /* QUQFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 149D636F17EA98E300DA482C /* QUQFont.h */; };
@@ -95,6 +85,9 @@
 		E2ADEDE31CB975D90074E483 /* ScriptCSS.css in Resources */ = {isa = PBXBuildFile; fileRef = 3CBFF74315940ACC005EC5BF /* ScriptCSS.css */; };
 		E2ADEDE41CB975D90074E483 /* FNPaginator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CBFF74515940D52005EC5BF /* FNPaginator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2ADEDE51CB975D90074E483 /* FNPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFF74615940D52005EC5BF /* FNPaginator.m */; };
+		E2ADEDE91CB97C310074E483 /* Fountain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ADEDB61CB975B10074E483 /* Fountain.framework */; };
+		E2ADEDEB1CB97CE10074E483 /* Fountain.h in Headers */ = {isa = PBXBuildFile; fileRef = E2ADEDEA1CB97CE10074E483 /* Fountain.h */; };
+		E2ADEDEC1CB97D770074E483 /* Fountain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ADEDB61CB975B10074E483 /* Fountain.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +232,7 @@
 		E2ADEDB61CB975B10074E483 /* Fountain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fountain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2ADEDBA1CB975B20074E483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2ADEDE61CB9765C0074E483 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E2ADEDEA1CB97CE10074E483 /* Fountain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fountain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,6 +251,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2ADEDE91CB97C310074E483 /* Fountain.framework in Frameworks */,
 				3CBFF74115940860005EC5BF /* WebKit.framework in Frameworks */,
 				3C0BB02E14DF3D55004A90E8 /* Cocoa.framework in Frameworks */,
 			);
@@ -266,6 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2ADEDEC1CB97D770074E483 /* Fountain.framework in Frameworks */,
 				3C0BB04D14DF3D56004A90E8 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +450,7 @@
 				3CBFF74315940ACC005EC5BF /* ScriptCSS.css */,
 				3CBFF74515940D52005EC5BF /* FNPaginator.h */,
 				3CBFF74615940D52005EC5BF /* FNPaginator.m */,
+				E2ADEDEA1CB97CE10074E483 /* Fountain.h */,
 				E2ADEDBA1CB975B20074E483 /* Info.plist */,
 			);
 			path = Fountain;
@@ -534,6 +531,7 @@
 			files = (
 				E2ADEDD71CB975D90074E483 /* FNScript.h in Headers */,
 				E2ADEDE41CB975D90074E483 /* FNPaginator.h in Headers */,
+				E2ADEDEB1CB97CE10074E483 /* Fountain.h in Headers */,
 				E2ADEDD91CB975D90074E483 /* FNElement.h in Headers */,
 				E2ADEDDD1CB975D90074E483 /* FastFountainParser.h in Headers */,
 				E2ADEDC31CB975BB0074E483 /* QUQFont.h in Headers */,
@@ -678,7 +676,6 @@
 				3CBFF74215940A40005EC5BF /* Big Fish.fountain in Resources */,
 				3C0BB03814DF3D55004A90E8 /* InfoPlist.strings in Resources */,
 				3CBFF73C159407CC005EC5BF /* Application.xib in Resources */,
-				3CBFF74415940ACC005EC5BF /* ScriptCSS.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -740,7 +737,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				149D636417EA969600DA482C /* RegexKitLite.m in Sources */,
-				149D636B17EA969600DA482C /* FNHTMLScript.m in Sources */,
 				149D634417EA93E200DA482C /* ViewController.m in Sources */,
 				149D633E17EA93E200DA482C /* AppDelegate.m in Sources */,
 				149D633A17EA93E200DA482C /* main.m in Sources */,
@@ -752,16 +748,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C0BB03A14DF3D55004A90E8 /* main.m in Sources */,
-				3C0BB06B14DF3D76004A90E8 /* FNScript.m in Sources */,
-				3C0BB06C14DF3D76004A90E8 /* FNElement.m in Sources */,
-				3C0BB06D14DF3D76004A90E8 /* FountainRegexes.m in Sources */,
-				3C0BB06E14DF3D76004A90E8 /* FountainParser.m in Sources */,
-				3C0BB06F14DF3D76004A90E8 /* FountainWriter.m in Sources */,
 				3C8CD10114DF64B400F18DE6 /* RegexKitLite.m in Sources */,
-				3C9545E51593EBA500ABBA9B /* FastFountainParser.m in Sources */,
-				3C95460D1594025400ABBA9B /* FNHTMLScript.m in Sources */,
 				3CBFF73F15940815005EC5BF /* AppDelegate.m in Sources */,
-				3CBFF74715940D52005EC5BF /* FNPaginator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1106,7 +1094,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1141,8 +1131,10 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s i386 x86_64";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
