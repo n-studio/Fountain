@@ -286,7 +286,7 @@ static NSString * const kContentPattern = @"";
         }
         
         // Comment -- double brackets [[Comment]]
-        if (newlinesBefore > 0 && [line isMatchedByRegex:@"^\\s*\\[{2}\\s*([^\\]\\n])+\\s*\\]{2}\\s*$"]) {
+        if ([line isMatchedByRegex:@"^\\s*\\[{2}\\s*([^\\]\\n])+\\s*\\]{2}\\s*$"]) {
             NSString *text = [[[line stringByReplacingOccurrencesOfString:@"[[" withString:@""] stringByReplacingOccurrencesOfString:@"]]" withString:@""] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
             FNElement *element = [FNElement elementOfType:@"Comment" text:text];
             [self.elements addObject:element];
